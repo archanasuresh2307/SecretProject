@@ -1,0 +1,33 @@
+This is the first commit.
+
+Problem statement:
+Given a rubik's cube, capture the 6 faces in sequence and present steps for solving the cube.
+
+Needed: 
+Image processing: 
+  To capture image from camera
+  To distinguish object form background
+  To distinguish each tiny-cube on a given face
+  To distinguish colour
+
+Solution Processing:
+  Get the program to read the information and store it.
+  Get the program to solve it and provide stpes
+  
+  Ambitious: Use AWS to solve the problem
+  
+Integration:
+  Feed data form the image processing library to the library that solves it.
+
+Identify programs to use:
+Image processing can be done using Matlab, Java, C, C++
+Solution Processing can be done using Java, C, C++
+
+we can breakdown the components and work on each.
+Let's start with the Solution Processing.
+
+Identify algorithm.
+
+Step 1: Check out notations: How to identify face and how to identify movements:
+https://ruwix.com/the-rubiks-cube/algorithm/
+
